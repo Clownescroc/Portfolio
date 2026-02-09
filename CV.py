@@ -1,0 +1,28 @@
+import streamlit as st
+st.title("Curriculum Vitae")
+st.header("Informations personnelles")
+st.write("**Nom :** Cheikh Mamour Insa Djigo")
+st.write("**Email :** cheikhmamourinsadjigo7@gmail.com")
+st.write("**Téléphone :** +221 77 431 28 94")
+st.write("**Adresse :** Parcelles assainies unité 6, Dakar, Sénégal")
+st.header(" Profil")
+st.write(
+    "Étudiant en informatique, motivé et passionné par la programmation, "
+    "les algorithmes et le développement d’applications."
+)
+st.header(" Formation")
+st.write("- Licence en Informatique – Université XXXX (2023 - présent)")
+st.write("- Baccalauréat Scientifique (2022)")
+st.header(" Compétences")
+st.write("- Algorithmique")
+st.write("- Python")
+st.write("- Streamlit")
+st.write("- Bases de données")
+st.write("- Travail en équipe")
+st.header(" Expériences")
+st.write("- Projet académique : Gestion des patients (Algorithmique)")
+st.write("- Mini-projets en Python")
+st.header(" Langues")
+st.write("- Français : Courant")
+st.write("- Anglais : Niveau intermédiaire")
+st.markdown("---")
